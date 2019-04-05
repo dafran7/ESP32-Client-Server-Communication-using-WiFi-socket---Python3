@@ -1,0 +1,20 @@
+import random
+from math import *
+
+
+def go(capability, reqd_caps, a, c, n):
+    task_needs = [[] for _ in range(n)]
+
+    for i in range(n):
+        for j in range(c):
+            if reqd_caps[i][j] == 1:
+                task_needs[i].append(j + 1)
+
+    collection = [[] for _ in range(n)]
+
+    for i in range(n):
+        for j in range(len(task_needs[i])):
+
+            for p in range
+
+    return
